@@ -2,14 +2,6 @@
 # see https://butterfly.js.org/posts/4aa8abbe/##導航欄設置-Navigation-bar-settings
 # --------------------------------------
 
-#site
-title: 加薪记事本
-subtitle: 加薪记事本
-description: 基于github的记事本
-author: Jiaxin
-language: zh-CN
-email: 785415581@qq.com
-
 nav:
   logo: # image
   display_title: true
@@ -53,7 +45,7 @@ favicon: /img/favicon.png
 # Avatar (頭像)
 avatar:
   img: /img/avatar.jpg
-  effect: true
+  effect: false
 
 # Disable all banner image
 disable_top_img: false
@@ -730,7 +722,7 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: # '\f0c1'
   title-prefix-icon-color: # '#F47466'
